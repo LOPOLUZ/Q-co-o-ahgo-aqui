@@ -1,0 +1,35 @@
+git config --global user.name "Escribe aqui tu nombre"
+git config --global user.email "Escribe aqui tu email"
+git config --global -l #para saber  que nombre y email estas utilizando
+
+te diriges a la carpeta donde quieres utilizar git y pones git init
+git status para ver que archivos estan en git
+git add . para añadir todos tus archivos al intermediario de git
+git commit -m "Commit inicial" para agregar a git los archivos que tenias en el intermediario
+estos arvhicos que estan en el master de git no pueden ser modificados a no ser que los modifiques y vuelvas a hacer git add.
+git diff para saber que ha sido modificado con respescto a tu anterior archivo.
+git log para saber que cambios han sido hechos
+git checkout para revertir los cambios 
+git reset  HEAD nombre del archivo para eliminar ese archivo de git
+git reset nombre_de_la_carpeta/*.palabras donde termina el archivo elimina todos los archuvos que terminen en esas palabras
+git config --global alias.nombre que quieras sustitutir "nombre de la funcion"
+por ejemplo git config --global alias.l "log"
+git commit --ammend -m "nuevo mensaje" esto se utiliza por si te equivocas escribiendo el commit, simplemente lo reemplazas
+git rm el nombre del arvhicos que se quiso borrar (seria bueno poner un git commit -m "Este archivo ha sido borrado")
+q para salir de git log
+crear archivo .gitignore y escribir dentro el nombre del archivo que no quieres que git se encargue de el
+git branch nombre de la nueva rama #para crear una nueva rama y no estar en el master 
+git checkout nombre de la nueva rama #para colocarte en la nueva rama y no en la master
+git merge para unir una rama a la master #debemos de estar colocados en la master
+git branch -d nombre de la rama #para eliminar la rama
+git checkout -b nombre de la rama #para crear y colocarte en la nueva rama
+si hay conflictos solo borrar Head y nueva rama y dejar el codigo como se deseaba
+git tag nombre de la targeta # para crear etiquetas
+git tag -d nombre de la tarjeta para eliminarla
+git tag -a v1.0.0 -m " version inicial" #para decir que estas es la version original"
+git log --online --decorate --all --graph #para una informacion detallado de los commits
+git show v1.0.0 (por ejemplo) para ver todo lo ocurrido hasta esa version
+git push origin master para mandar los cambios a githun
+git pull para traer las nuevvas versiones del github
+fork desde github para traer a tu github codigos que te interesen despues clone para traerle a tu nombre_de_la_carpetagit 
+git rm  --cached nombre del archivo para eliminar el archivo una vez ha sido confirmado
