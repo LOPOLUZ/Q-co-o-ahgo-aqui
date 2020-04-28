@@ -10,7 +10,7 @@ estos arvhicos que estan en el master de git no pueden ser modificados a no ser 
 git diff para saber que ha sido modificado con respescto a tu anterior archivo.
 git log para saber que cambios han sido hechos
 git checkout para revertir los cambios 
-git reset nombre del archivo para eliminar ese archivo de git
+git reset  HEAD nombre del archivo para eliminar ese archivo de git
 git reset nombre_de_la_carpeta/*.palabras donde termina el archivo elimina todos los archuvos que terminen en esas palabras
 git config --global alias.nombre que quieras sustitutir "nombre de la funcion"
 por ejemplo git config --global alias.l "log"
@@ -32,3 +32,4 @@ git show v1.0.0 (por ejemplo) para ver todo lo ocurrido hasta esa version
 git push origin master para mandar los cambios a githun
 git pull para traer las nuevvas versiones del github
 fork desde github para traer a tu github codigos que te interesen despues clone para traerle a tu nombre_de_la_carpetagit 
+git rm  --cached nombre del archivo para eliminar el archivo una vez ha sido confirmado
