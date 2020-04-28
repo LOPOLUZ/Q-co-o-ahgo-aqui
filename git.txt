@@ -31,4 +31,4 @@ git log --online --decorate --all --graph #para una informacion detallado de los
 git show v1.0.0 (por ejemplo) para ver todo lo ocurrido hasta esa version
 git push origin master para mandar los cambios a githun
 git pull para traer las nuevvas versiones del github
-fork desde github para traer a tu github codigos que te interesen despues clone para traerle a tu carpeta
+fork desde github para traer a tu github codigos que te interesen despues clone para traerle a tu nombre_de_la_carpetagit 
