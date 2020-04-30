@@ -1,10 +1,10 @@
 from tkinter import *
 
-root=Tk()
+root=Tk() #le damos a la raiz la funcion
 
-Frame=Frame(root, width=500, heigh=500)
+Frame=Frame(root, width=500, heigh=500) #creamos el frame y le damos un espacio
 
-Frame.pack()
+Frame.pack() #lo empaquetamos
 
 Label=Label(Frame, text="Esto esta yendo calide", fg="red",image="mi_imagen" font=("calibre", 20))# en la funcion label podemos modificar la forma del texto de muchas formas
 
@@ -16,4 +16,4 @@ mi_imagen=PhotoImage(file="nombre del archivo")#podemos meter la imagen en label
 
 
 
-root.mainloop()
+root.mainloop() #el mainloop siempre al final
