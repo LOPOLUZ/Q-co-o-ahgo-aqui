@@ -23,7 +23,7 @@ print(mi_lista.index("rodri")) #para saber en que posicion se encuentra el eleme
 
 print("adios" in mi_lista) #le preguntamos si ese elemento esta en mi_lista nos devolvera un valor booleano
 
-mi_lista.remove("rodri", ) # para eliminar un solo elemento de la lista, siempre se debe de ordenar esta funcion antes de imprimir la lista
+mi_lista.remove("rodri",) # para eliminar un solo elemento de la lista, siempre se debe de ordenar esta funcion antes de imprimir la lista
 print(mi_lista)
 
 mi_lista.pop() #elimina el ultimo elemento de una lista
