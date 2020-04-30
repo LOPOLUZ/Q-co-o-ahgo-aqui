@@ -28,3 +28,9 @@ print(mi_lista)
 
 mi_lista.pop() #elimina el ultimo elemento de una lista
 print(mi_lista)
+
+mi_lista3=mi_lista+mi_lista2 #para sumar listas
+print(mi_lista3)
+
+mi_lista4=["pep", "jeromin", 3, 67,34] *3 #para multiplica una lista las veces que tu desees
+print(mi_lista4)
