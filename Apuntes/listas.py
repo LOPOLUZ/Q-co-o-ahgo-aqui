@@ -34,3 +34,7 @@ print(mi_lista3)
 
 mi_lista4=["pep", "jeromin", 3, 67,34] *3 #para multiplica una lista las veces que tu desees
 print(mi_lista4)
+
+mi_tupla = ("awesome", 17, True)
+mi_lista5 = list(mi_tupla)
+mi_tupla2 = tuple(mi_lista)
