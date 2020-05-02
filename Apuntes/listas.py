@@ -34,7 +34,8 @@ print(mi_lista3)
 
 mi_lista4=["pep", "jeromin", 3, 67,34] *3 #para multiplica una lista las veces que tu desees
 print(mi_lista4)
+mi_lista.count("pepe") #cuenta cuantas veces se encuentre ese elemento en la lista
 
 mi_tupla = ("awesome", 17, True)
-mi_lista5 = list(mi_tupla)
-mi_tupla2 = tuple(mi_lista)
+mi_lista5 = list(mi_tupla) #conviert las tuplas a listas
+mi_tupla2 = tuple(mi_lista) #convierte las listas a tuplas
